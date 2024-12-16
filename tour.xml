@@ -1,0 +1,909 @@
+<krpano version="1.22" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+	<include url="biotope/biotopephoto.xml" />
+	<!--<include url="hdvr_view_copy/hdvr_view_copy.xml" />-->
+	<include url="%SWFPATH%/add_hotspot/plugins_l/add_hotspot.xml" />
+	<!--<include url="%SWFPATH%/add_hotspot/plugins_l/editor/add_hotspot_2.xml" />-->
+	
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	<include url="biotope/vtourskin_design_biotope.xml"       />
+
+
+	<!-- *** add hotspt *** -->
+
+<scene name="scene_001_1_0002" title="001_1_0002" onstart="" thumburl="panos/001_1_0002.tiles/thumb.jpg" lat="36.77900806" lng="127.23000278" alt="15.20" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-2.22" vlookat="16.13" fovtype="MFOV" fov="140.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_1_0002.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_1_0002.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_0_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5));delayedcall(0.01, lookto(-0.11,0.11,124.00));" scalez="0.700" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.7" ath="-0.8059" atv="9.5989" install_onclick="15" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_3_0017" />
+	
+		<hotspot name="hsp_0_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-24.9414" atv="76.5010" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_0" />
+	</scene>
+
+	<scene name="scene_001_2_0010" title="001_2_0010" onstart="" thumburl="panos/001_2_0010.tiles/thumb.jpg" lat="36.78141861" lng="127.22958333" alt="108.09" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-15.08" vlookat="40.96" fovtype="MFOV" fov="140.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_2_0010.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_2_0010.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_1_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.11,0.11,124.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="-150.1956" atv="34.0706" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_3_0017" />
+	
+		<hotspot name="hsp_1_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-15.08,40.96,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-8.2229" atv="64.5054" install_onclick="15" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
+	</scene>
+
+	<scene name="scene_001_3_0017" title="001_3_0017" onstart="" thumburl="panos/001_3_0017.tiles/thumb.jpg" lat="36.77962639" lng="127.22910306" alt="76.42" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-0.11" vlookat="0.11" fovtype="MFOV" fov="124.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_3_0017.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_3_0017.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_2_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_2_0010,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-15.08,40.96,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="59.0084" atv="15.1828" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_2_0010" />
+		<hotspot name="hsp_2_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_1_0002,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-2.22,16.13,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="179.5904" atv="40.2527" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_1_0002" />
+		<hotspot name="hsp_2_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="-0.1323" atv="17.6602" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
+	
+		<hotspot name="hsp_2_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-0.0976" atv="61.5886" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_001_4_0007" title="001_4_0007" onstart="" thumburl="panos/001_4_0007.tiles/thumb.jpg" lat="36.78135278" lng="127.22605806" alt="89.39" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-0.54" vlookat="16.25" fovtype="MFOV" fov="129.95" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_4_0007.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_4_0007.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_3_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_5_0020,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="5.6178" atv="17.0739" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_5_0020" />
+		<hotspot name="hsp_3_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_6_0023,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="-91.4076" atv="16.2426" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_6_0023" />
+		<hotspot name="hsp_3_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.11,0.11,124.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="174.2696" atv="23.9608" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_3_0017" />
+	
+		<hotspot name="hsp_3_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="25.2328" atv="70.7488" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
+	
+		<hotspot name="hsp_3_5" ready="true" style="link_hs_sm" onclick="loadscene(scene_5_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="77.0126" atv="25.2608" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_5_0" />
+	
+		<hotspot name="hsp_3_6" ready="true" style="link_hs_sm" onclick="loadscene(scene_17_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-47.4378" atv="22.5827" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_17_1" />
+	
+		<hotspot name="hsp_3_7" ready="true" style="link_hs_sm" onclick="loadscene(scene_21_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-156.3299" atv="44.7631" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_21_1" />
+	</scene>
+
+	<scene name="scene_001_5_0020" title="001_5_0020" onstart="" thumburl="panos/001_5_0020.tiles/thumb.jpg" lat="36.78445778" lng="127.22178167" alt="135.13" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-179.57" vlookat="69.32" fovtype="MFOV" fov="140.00" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_5_0020.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_5_0020.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_4_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-0.4173" atv="29.1127" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
+	
+		<hotspot name="hsp_4_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_12_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="40.8887" atv="88.7883" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_12_0" />
+		<hotspot name="hsp_4_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_14_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="-176.8254" atv="30.0701" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_14_0" />
+		<hotspot name="hsp_4_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_13_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="-106.1826" atv="25.2328" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_13_1" />
+	
+		<hotspot name="hsp_4_5" ready="true" style="link_hs_sm" onclick="loadscene(scene_16_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="109.7032" atv="23.2278" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_16_0" />
+	</scene>
+
+	<scene name="scene_001_6_0023" title="001_6_0023" onstart="" thumburl="panos/001_6_0023.tiles/thumb.jpg" lat="36.77796694" lng="127.22188889" alt="144.29" heading="0.0">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-358.37" vlookat="55.05" fovtype="MFOV" fov="140" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/001_6_0023.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/001_6_0023.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,3072,5888" />
+		</image>
+
+	
+		<hotspot name="hsp_5_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" ath="43.8297" atv="12.9268" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
+	
+		<hotspot name="hsp_5_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_18_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="14.5446" atv="25.7483" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_18_0" />
+		<hotspot name="hsp_5_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_19_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="76.5269" atv="28.2228" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_19_0" />
+		<hotspot name="hsp_5_5" ready="true" style="link_hs_sm" onclick="loadscene(scene_20_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/info.png" ath="-89.2731" atv="22.1589" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_20_0" />
+	</scene>
+
+	<scene name="scene_1_0" title="1_0" onstart="" thumburl="panos/1_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.536" vlookatmax="84.514" />
+
+		<preview url="panos/1_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/1_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_6_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_2_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="43.7232" atv="5.0821" install_onclick="15" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_2_2" />
+	</scene>
+
+	<scene name="scene_1_2_1" title="1_2_1" onstart="" thumburl="panos/1_2_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.996" vlookatmax="84.019" />
+
+		<preview url="panos/1_2_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/1_2_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_7_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-175.3303" atv="12.3021" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_0" />
+	</scene>
+
+	<scene name="scene_1_2_2" title="1_2_2" onstart="" thumburl="panos/1_2_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.952" vlookatmax="83.952" />
+
+		<preview url="panos/1_2_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/1_2_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_8_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="141.2920" atv="12.1934" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_0" />
+		<hotspot name="hsp_8_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-116.3272" atv="4.8323" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_2_0" title="2_0" onstart="" thumburl="panos/2_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/2_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/2_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_9_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="55.6784" atv="-0.1085" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_1" />
+		<hotspot name="hsp_9_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.3552" atv="16.7528" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_2_1" title="2_1" onstart="" thumburl="panos/2_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/2_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/2_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_10_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-174.7966" atv="17.6882" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
+	</scene>
+
+	<scene name="scene_3_0" title="3_0" onstart="" thumburl="panos/3_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.375" vlookatmax="84.375" />
+
+		<preview url="panos/3_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_11_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="130.4767" atv="13.3809" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
+		<hotspot name="hsp_11_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="1.6942" atv="10.4782" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
+		<hotspot name="hsp_11_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_2_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-157.0181" atv="8.3506" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_2_2" />
+		<hotspot name="hsp_11_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="96.5897" atv="16.7552" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
+	</scene>
+
+	<scene name="scene_3_1" title="3_1" onstart="" thumburl="panos/3_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-79.632" vlookatmax="79.655" />
+
+		<preview url="panos/3_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_12_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-177.2164" atv="13.5527" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_3_2" title="3_2" onstart="" thumburl="panos/3_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-81.719" vlookatmax="81.742" />
+
+		<preview url="panos/3_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_13_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-167.4224" atv="17.5347" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_3_3" title="3_3" onstart="" thumburl="panos/3_3.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-81.827" vlookatmax="81.805" />
+
+		<preview url="panos/3_3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/3_3.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_14_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.6613" atv="18.2073" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+		<hotspot name="hsp_14_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-2.9894" atv="15.9300" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
+	</scene>
+
+	<scene name="scene_4_1" title="4_1" onstart="" thumburl="panos/4_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-80.237" vlookatmax="80.260" />
+
+		<preview url="panos/4_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/4_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_15_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.9303" atv="23.0614" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_2" />
+		<hotspot name="hsp_15_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-170.8483" atv="19.3933" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+	</scene>
+
+	<scene name="scene_4_2" title="4_2" onstart="" thumburl="panos/4_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/4_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/4_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_16_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="172.1763" atv="19.7795" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
+	</scene>
+
+	<scene name="scene_5_0" title="5_0" onstart="" thumburl="panos/5_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/5_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/5_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_6_0" title="6_0" onstart="" thumburl="panos/6_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/6_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/6_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_18_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_7_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-91.6335" atv="10.0872" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_7_0" />
+	</scene>
+
+	<scene name="scene_6_1" title="6_1" onstart="" thumburl="panos/6_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.283" vlookatmax="84.306" />
+
+		<preview url="panos/6_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/6_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_19_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_7_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-81.0308" atv="13.8341" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_7_0" />
+	</scene>
+
+	<scene name="scene_7_0" title="7_0" onstart="" thumburl="panos/7_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/7_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/7_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_20_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_0_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.1297" atv="12.5299" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_0_2" />
+		<hotspot name="hsp_20_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_6_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-39.3171" atv="10.4890" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_6_0" />
+	</scene>
+
+	<scene name="scene_7_1" title="7_1" onstart="" thumburl="panos/7_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/7_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/7_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_21_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_0_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="178.8201" atv="10.3867" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_0_2" />
+	</scene>
+
+	<scene name="scene_8_0_1" title="8_0_1" onstart="" thumburl="panos/8_0_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.095" vlookatmax="83.095" />
+
+		<preview url="panos/8_0_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/8_0_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_22_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_9_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-178.1986" atv="11.2111" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_9_0" />
+	</scene>
+
+	<scene name="scene_8_0_2" title="8_0_2" onstart="" thumburl="panos/8_0_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.262" vlookatmax="83.262" />
+
+		<preview url="panos/8_0_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/8_0_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_23_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_9_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.6505" atv="17.7475" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_9_0" />
+		<hotspot name="hsp_23_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_1" />
+		<hotspot name="hsp_23_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_7_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="86.5481" atv="7.8492" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_7_0" />
+	</scene>
+
+	<scene name="scene_8_1" title="8_1" onstart="" thumburl="panos/8_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/8_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/8_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_24_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_12_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="1.0336" atv="10.6256" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_12_0" />
+		<hotspot name="hsp_24_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_0_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.5451" atv="11.1016" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_0_2" />
+	</scene>
+
+	<scene name="scene_9_0" title="9_0" onstart="" thumburl="panos/9_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-84.526" vlookatmax="84.526" />
+
+		<preview url="panos/9_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/9_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_25_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_0_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="2.0791" atv="12.4999" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_0_2" />
+		<hotspot name="hsp_25_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-179.0990" atv="12.9060" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
+	</scene>
+
+	<scene name="scene_10_0" title="10_0" onstart="" thumburl="panos/10_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-78.086" vlookatmax="78.086" />
+
+		<preview url="panos/10_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/10_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_26_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_9_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.3178" atv="14.5271" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_9_0" />
+		<hotspot name="hsp_26_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-173.8587" atv="14.0628" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
+	</scene>
+
+	<scene name="scene_11_0" title="11_0" onstart="" thumburl="panos/11_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-81.623" vlookatmax="81.623" />
+
+		<preview url="panos/11_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/11_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_27_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_22_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="106.6419" atv="8.1526" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_22_0" />
+		<hotspot name="hsp_27_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="175.0563" atv="11.8894" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
+	</scene>
+
+	<scene name="scene_11_1" title="11_1" onstart="" thumburl="panos/11_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/11_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/11_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_28_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_22_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="66.5934" atv="18.6124" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_22_0" />
+	</scene>
+
+	<scene name="scene_12_0" title="12_0" onstart="" thumburl="panos/12_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.845" vlookatmax="83.822" />
+
+		<preview url="panos/12_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/12_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_29_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_25_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.2898" atv="7.4599" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_25_0" />
+		<hotspot name="hsp_29_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_8_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="177.2237" atv="12.4425" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_8_1" />
+	</scene>
+
+	<scene name="scene_13_0" title="13_0" onstart="" thumburl="panos/13_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/13_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/13_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2624,5184" />
+		</image>
+
+	
+		<hotspot name="hsp_30_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_13_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-149.0563" atv="23.5224" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_13_1" />
+	</scene>
+
+	<scene name="scene_13_1" title="13_1" onstart="" thumburl="panos/13_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/13_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/13_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_31_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_13_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="76.5885" atv="7.6409" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_13_0" />
+	</scene>
+
+	<scene name="scene_14_0" title="14_0" onstart="" thumburl="panos/14_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-80.248" vlookatmax="80.270" />
+
+		<preview url="panos/14_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/14_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_32_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_15_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="86.6893" atv="14.9930" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_15_0" />
+	</scene>
+
+	<scene name="scene_15_0" title="15_0" onstart="" thumburl="panos/15_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-80.503" vlookatmax="80.503" />
+
+		<preview url="panos/15_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/15_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_33_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_14_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-104.2901" atv="22.6901" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_14_0" />
+	</scene>
+
+	<scene name="scene_16_0" title="16_0" onstart="" thumburl="panos/16_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/16_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/16_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_34_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_16_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="14.5466" atv="9.4987" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_16_1" />
+	</scene>
+
+	<scene name="scene_16_1" title="16_1" onstart="" thumburl="panos/16_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/16_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/16_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_35_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_16_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-172.9455" atv="23.4667" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_16_0" />
+	</scene>
+
+	<scene name="scene_17_0" title="17_0" onstart="" thumburl="panos/17_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/17_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/17_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_17_1" title="17_1" onstart="" thumburl="panos/17_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/17_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/17_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_37_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_17_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-26.3151" atv="13.0598" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_17_0" />
+	</scene>
+
+	<scene name="scene_18_0" title="18_0" onstart="" thumburl="panos/18_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.259" vlookatmax="83.237" />
+
+		<preview url="panos/18_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/18_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_38_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_18_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-168.7446" atv="39.1852" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_18_1" />
+	</scene>
+
+	<scene name="scene_18_1" title="18_1" onstart="" thumburl="panos/18_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-81.322" vlookatmax="81.322" />
+
+		<preview url="panos/18_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/18_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1536,2816,5632" />
+		</image>
+
+	
+		<hotspot name="hsp_39_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_18_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="33.2203" atv="17.7698" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_18_0" />
+	</scene>
+
+	<scene name="scene_19_0" title="19_0" onstart="" thumburl="panos/19_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/19_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/19_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_20_0" title="20_0" onstart="" thumburl="panos/20_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-82.673" vlookatmax="82.673" />
+
+		<preview url="panos/20_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/20_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5184" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_21_0" title="21_0" onstart="" thumburl="panos/21_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/21_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/21_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_42_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_21_1,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="170.3324" atv="16.3927" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_21_1" />
+	</scene>
+
+	<scene name="scene_21_1" title="21_1" onstart="" thumburl="panos/21_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/21_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/21_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_43_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_21_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-48.9962" atv="4.5764" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_21_0" />
+	</scene>
+
+	<scene name="scene_22_0" title="22_0" onstart="" thumburl="panos/22_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/22_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/22_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_44_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_11_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-102.4100" atv="17.4730" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_11_0" />
+	</scene>
+
+	<scene name="scene_23_0" title="23_0" onstart="" thumburl="panos/23_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-83.759" vlookatmax="83.737" />
+
+		<preview url="panos/23_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/23_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_45_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_24_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-89.8405" atv="9.7994" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_24_0" />
+		<hotspot name="hsp_45_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_11_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="97.6620" atv="12.4235" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_11_0" />
+	</scene>
+
+	<scene name="scene_24_0" title="24_0" onstart="" thumburl="panos/24_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/24_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/24_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_46_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="105.2273" atv="8.7576" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
+		<hotspot name="hsp_46_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_25_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-167.2223" atv="17.6474" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_25_0" />
+	</scene>
+
+	<scene name="scene_25_0" title="25_0" onstart="" thumburl="panos/25_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/25_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/25_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_47_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_12_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.8911" atv="11.3707" install_onclick="15" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_12_0" />
+		<hotspot name="hsp_47_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_24_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="87.3354" atv="10.5339" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_24_0" />
+		<hotspot name="hsp_47_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_26_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-87.2025" atv="13.2628" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_26_0" />
+	</scene>
+
+	<scene name="scene_26_0" title="26_0" onstart="" thumburl="panos/26_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-77.589" vlookatmax="77.567" />
+
+		<preview url="panos/26_0.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/26_0.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120" />
+		</image>
+
+	
+		<hotspot name="hsp_48_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_25_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="107.7375" atv="8.5186" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_25_0" />
+	</scene>
+
+	<include url="plugins/garrows/garrows_settings.xml" />
+	<include url="plugins/garrows/garrows.xml" />
+
+</krpano>
