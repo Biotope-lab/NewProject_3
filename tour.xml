@@ -6,7 +6,7 @@
 	<include url="%SWFPATH%/add_hotspot/plugins_l/add_hotspot.xml" />
 	<!--<include url="%SWFPATH%/add_hotspot/plugins_l/editor/add_hotspot_2.xml" />-->
 
-	<layer name="dronelogo" url="add_hotspot/picture/drone.png" alpha="0.8" align="righttop" x="10" y="10" keep="true" bgroundedge="10" scale="0.2" enabled="true" visible="false" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5));delayedcall(0.01, lookto(-0.11,0.11,124.00));" scale.no-mobile="0.2" scale.mobile="0.2" />
+	<layer name="dronelogo" url="add_hotspot/picture/drone.png" alpha="1.0" align="righttop" x="10" y="10" keep="true" bgroundedge="10" scale="0.1" enabled="true" visible="false" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5));delayedcall(0.01, lookto(-0.11,0.11,124.00));" scale.no-mobile="0.1" scale.mobile="0.1" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
@@ -95,10 +95,10 @@
 
 
 		<hotspot name="hsp_2_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_2_0010,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-15.08,40.96,140.00));" scalez="0.8" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="59.4767" atv="14.8201" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_2_0010" />
-		<hotspot name="hsp_2_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_1_0002,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-2.22,16.13,140.00));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="179.8869" atv="40.4553" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_1_0002" />
-		<hotspot name="hsp_2_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" scalez="0.8" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="-0.1566" atv="16.8671" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
+		<hotspot name="hsp_2_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_1_0002,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-2.22,16.13,140.00));" scalez="0.8" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="179.8869" atv="40.4553" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_1_0002" />
+		<hotspot name="hsp_2_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="-0.1566" atv="16.8671" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
 
-		<hotspot name="hsp_2_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" scalez="0.7" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" scale="0.7" ath="0.7887" atv="61.6887" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+		<hotspot name="hsp_2_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" scalez="0.700" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" scale="0.7" ath="0.7954" atv="61.5669" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
 	</scene>
 
 	
@@ -152,9 +152,9 @@
 		</image>
 
 	
-		<hotspot name="hsp_3_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_5_0020,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="4.6871" atv="16.9726" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_5_0020" />
+		<hotspot name="hsp_3_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_5_0020,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="3.2340" atv="17.9938" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_5_0020" />
 		<hotspot name="hsp_3_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_6_0023,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="-91.4076" atv="16.2426" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_6_0023" />
-		<hotspot name="hsp_3_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.11,0.11,124.00));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="174.0401" atv="24.1343" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_3_0017" />
+		<hotspot name="hsp_3_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.11,0.11,124.00));" scalez="0.8" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="174.0401" atv="24.1343" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_3_0017" />
 	
 		<hotspot name="hsp_3_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-179.57,69.32,140.00));" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" ath="25.2328" atv="70.7488" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
 	
@@ -200,10 +200,10 @@
 		</image>
 
 	
-		<hotspot name="hsp_5_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" scalez="0.800" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="43.6057" atv="12.9710" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
+		<hotspot name="hsp_5_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_001_4_0007,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-0.54,16.25,129.95));" scalez="0.8" url="%FIRSTXML%/add_hotspot/picture/icon_drone.png" scale="0.8" ath="43.6057" atv="12.9710" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_001_4_0007" />
 	
 		<hotspot name="hsp_5_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_18_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" ath="14.5446" atv="25.7483" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_18_0" />
-		<hotspot name="hsp_5_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_19_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" ath="76.5269" atv="28.2228" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_19_0" />
+		<hotspot name="hsp_5_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_19_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" ath="75.1220" atv="28.0873" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_19_0" />
 		<hotspot name="hsp_5_5" ready="true" style="link_hs_sm" onclick="loadscene(scene_20_0,null,MERGE,BLEND(0.5)); delayedcall(0.01, lookto(-358.37,55.05,140.00));" url="%FIRSTXML%/add_hotspot/picture/icon_inside.png" ath="-89.2731" atv="22.1589" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_20_0" />
 	</scene>
 
@@ -238,7 +238,7 @@
 
 	
 		<hotspot name="hsp_8_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="141.2920" atv="12.1934" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_0" />
-		<hotspot name="hsp_8_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-116.3272" atv="4.8323" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+		<hotspot name="hsp_8_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-73.0399" atv="8.0001" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
 	</scene>
 
 	<scene name="scene_2_0" title="2_0" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/2_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -254,8 +254,8 @@
 		</image>
 
 	
-		<hotspot name="hsp_9_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="55.6784" atv="-0.1085" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_1" />
-		<hotspot name="hsp_9_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.3552" atv="16.7528" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+		<hotspot name="hsp_9_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-3.1297" atv="15.1741" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_1" />
+		<hotspot name="hsp_9_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.2202" atv="16.6368" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
 	</scene>
 
 	<scene name="scene_2_1" title="2_1" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/2_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -271,7 +271,7 @@
 		</image>
 
 	
-		<hotspot name="hsp_10_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-174.7966" atv="17.6882" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
+		<hotspot name="hsp_10_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-174.7794" atv="17.6128" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
 	</scene>
 
 	<scene name="scene_3_0" title="3_0" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/3_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -287,10 +287,10 @@
 		</image>
 
 	
-		<hotspot name="hsp_11_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="130.4767" atv="13.3809" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
-		<hotspot name="hsp_11_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="1.6942" atv="10.4782" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
-		<hotspot name="hsp_11_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_2_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-157.0181" atv="8.3506" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_2_2" />
-		<hotspot name="hsp_11_4" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="96.5897" atv="16.7552" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
+		<hotspot name="hsp_11_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_2_0,null,MERGE,BLEND(0.5));" rotate="-10.00" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="130.4989" atv="12.2471" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_2_0" />
+		<hotspot name="hsp_11_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.2523" atv="10.7039" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
+		<hotspot name="hsp_11_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_1_2_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-179.4467" atv="8.1170" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_1_2_2" />
+		
 	</scene>
 
 
@@ -308,7 +308,7 @@
 
 	
 		<hotspot name="hsp_14_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.6613" atv="18.2073" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
-		<hotspot name="hsp_14_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-2.9894" atv="15.9300" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
+		<hotspot name="hsp_14_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_10_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-1.4142" atv="16.2957" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_10_0" />
 	</scene>
 
 	<scene name="scene_4_1" title="4_1" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/4_1.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -324,8 +324,8 @@
 		</image>
 
 	
-		<hotspot name="hsp_15_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.9303" atv="23.0614" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_2" />
-		<hotspot name="hsp_15_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-170.8483" atv="19.3933" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
+		<hotspot name="hsp_15_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_2,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-1.1593" atv="23.0599" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_2" />
+		<hotspot name="hsp_15_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-175.9681" atv="18.8817" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_0" />
 	</scene>
 
 	<scene name="scene_4_2" title="4_2" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/4_2.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -341,7 +341,7 @@
 		</image>
 
 	
-		<hotspot name="hsp_16_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="172.1763" atv="19.7795" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
+		<hotspot name="hsp_16_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_4_1,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-178.6253" atv="19.8429" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_4_1" />
 	</scene>
 
 	<scene name="scene_5_0" title="5_0" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/5_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -457,7 +457,7 @@
 
 	
 		<hotspot name="hsp_26_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_9_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-0.3178" atv="14.5271" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_9_0" />
-		<hotspot name="hsp_26_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-173.8587" atv="14.0628" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
+		<hotspot name="hsp_26_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_3_3,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-175.5191" atv="13.7797" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_3_3" />
 	</scene>
 
 	<scene name="scene_11_0" title="11_0" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/11_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -473,8 +473,8 @@
 		</image>
 
 	
-		<hotspot name="hsp_27_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_22_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="106.6419" atv="8.1526" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_22_0" />
-		<hotspot name="hsp_27_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="175.0563" atv="11.8894" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
+		<hotspot name="hsp_27_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_22_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="106.7427" atv="8.1580" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_22_0" />
+		<hotspot name="hsp_27_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="174.9756" atv="11.9005" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
 	</scene>
 
 	<scene name="scene_12_0" title="12_0" onstart="set(layer[dronelogo].visible,true);" thumburl="panos/12_0.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
@@ -758,7 +758,7 @@
 		</image>
 
 	
-		<hotspot name="hsp_46_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="105.2273" atv="8.7576" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
+		<hotspot name="hsp_46_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_23_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="105.1234" atv="8.7524" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_23_0" />
 		<hotspot name="hsp_46_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_25_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-167.2223" atv="17.6474" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_25_0" />
 	</scene>
 
@@ -776,7 +776,7 @@
 
 	
 		<hotspot name="hsp_47_1" ready="true" style="link_hs_sm" onclick="loadscene(scene_12_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="179.8911" atv="11.3707" install_onclick="15" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_12_0" />
-		<hotspot name="hsp_47_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_24_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="87.3354" atv="10.5339" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_24_0" />
+		<hotspot name="hsp_47_2" ready="true" style="link_hs_sm" onclick="loadscene(scene_24_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="87.7648" atv="10.4457" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_24_0" />
 		<hotspot name="hsp_47_3" ready="true" style="link_hs_sm" onclick="loadscene(scene_26_0,null,MERGE,BLEND(0.5));" url="%FIRSTXML%/add_hotspot/picture/arrov.png" ath="-87.2025" atv="13.2628" install_onclick="5" colorize="16777215" brightness="1" contrast="1" saturate="1" hue="0" invert="0" sepia="0" hs_linkedscene="scene_26_0" />
 	</scene>
 
