@@ -6,7 +6,7 @@
 	<include url="%SWFPATH%/add_hotspot/plugins_l/add_hotspot.xml" />
 	<!--<include url="%SWFPATH%/add_hotspot/plugins_l/editor/add_hotspot_2.xml" />-->
 
-	<layer name="dronelogo" url="add_hotspot/picture/item.png" alpha="0.8" align="righttop" x="10" y="10" keep="true" bgroundedge="10" scale="0.1" enabled="true" visible="false" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5));delayedcall(0.01, lookto(-0.11,0.11,124.00));" scale.no-mobile="0.1" scale.mobile="0.1" />
+	<layer name="dronelogo" url="add_hotspot/picture/drone.png" alpha="0.8" align="righttop" x="10" y="10" keep="true" bgroundedge="10" scale="0.2" enabled="true" visible="false" onclick="loadscene(scene_001_3_0017,null,MERGE,BLEND(0.5));delayedcall(0.01, lookto(-0.11,0.11,124.00));" scale.no-mobile="0.2" scale.mobile="0.2" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
